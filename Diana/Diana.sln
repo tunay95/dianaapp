@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diana", "Diana\Diana.csproj", "{A31362C9-4319-4FEC-998C-32C6A3F3DE14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A31362C9-4319-4FEC-998C-32C6A3F3DE14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31362C9-4319-4FEC-998C-32C6A3F3DE14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31362C9-4319-4FEC-998C-32C6A3F3DE14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31362C9-4319-4FEC-998C-32C6A3F3DE14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65942EAA-C7C3-436F-8C34-F56F7EF1DBF1}
+	EndGlobalSection
+EndGlobal
