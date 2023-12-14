@@ -1,4 +1,5 @@
-﻿namespace Diana.Models
+﻿
+namespace Diana.Models
 {
     public class Category:BaseEntity
     {

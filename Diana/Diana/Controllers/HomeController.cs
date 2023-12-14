@@ -16,9 +16,12 @@ namespace Diana.Controllers
         public IActionResult Index()
         {
             List <Product> products=_context.Products.ToList();
+            List <Category> categories=_context.Categories.ToList();
             HomeVM homeVM = new HomeVM()
             {
-                Products = products
+                Products = products,
+                Categories = categories
+                
             };
 
             return View(homeVM);

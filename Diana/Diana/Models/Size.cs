@@ -1,7 +1,10 @@
-﻿namespace Diana.Models
+﻿
+
+namespace Diana.Models
 {
     public class Size:BaseEntity
     {
-        public int Name { get; set; } 
+        public string Name { get; set; }
+        public ICollection<ProductSizes> ProductSizes { get; set; }
     }
 }
