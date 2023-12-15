@@ -1,4 +1,5 @@
-﻿using Diana.DAL;
+﻿using Diana.Areas.Admin.ViewModels;
+using Diana.DAL;
 using Diana.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -48,7 +49,20 @@ namespace Diana.Areas.Admin.Controllers
             return View();
         }
 
-        //public async Task<IActionResult> Create(Cre)
-
+        [HttpPost]
+        public async Task<IActionResult> Create(CreateProductVM createProductVM)
+        {
+            await _context.Categories.Add(category);
+            await _context.SaveChangesAsync();
+            return RedirectToAction("Index");
+        }
+        public async Task<IActionResult> Delete(int id)
+        {
+            return View();
+        }
+        public async Task<IActionResult>Update(int id)
+        {
+            return View();
+        }
     }
 }
